@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <ReactD3Gauge
           needleColor="blue"
-          colors={['green', 'yellow', 'orange', 'red']}
+          colors={['red', 'orange', 'yellow', 'green']}
           width={800}
           percent={70}
         />
